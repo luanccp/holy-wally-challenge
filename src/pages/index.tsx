@@ -20,7 +20,7 @@ export default function Home() {
         <a href="/exercise2" className={inter.className}>
           Exercise 2
         </a>
-        <a href="/exercise3" className={inter.className}>
+        <a href="https://gist.github.com/luanccp/ca0abd582ca284d8bf807a203aa5e2fe" target="_blank" className={inter.className}>
           Exercise 3
         </a>
         <a href="/exercise4" className={inter.className}>
