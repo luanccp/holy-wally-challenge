@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,18 +15,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <a href="/exercise1" className={inter.className}>
+        <Link href="/exercise1" className={inter.className}>
           Exercise 1
-        </a>
-        <a href="/exercise2" className={inter.className}>
+        </Link>
+        <Link href="/exercise2" className={inter.className}>
           Exercise 2
-        </a>
-        <a href="https://gist.github.com/luanccp/ca0abd582ca284d8bf807a203aa5e2fe" target="_blank" className={inter.className}>
+        </Link>
+        <Link href="https://gist.github.com/luanccp/ca0abd582ca284d8bf807a203aa5e2fe" target="_blank" className={inter.className}>
           Exercise 3
-        </a>
-        <a href="/exercise4" className={inter.className}>
+        </Link>
+        <Link href="/exercise4" className={inter.className}>
           Exercise 4
-        </a>
+        </Link>
       </main>
     </>
   );
